@@ -23,7 +23,7 @@ function Projects() {
   ];
 
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <h2>Selected Projects</h2>
 
       <div className="projects-grid">
