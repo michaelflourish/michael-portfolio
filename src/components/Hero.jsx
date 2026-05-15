@@ -18,9 +18,19 @@ function Hero() {
             technologies.
           </p>
 
-          <a href="#projects">
-            <button>View My Projects</button>
-        </a>
+          <div className="hero-buttons">
+            <a href="#projects">
+                <button>View My Projects</button>
+            </a>
+
+            <a
+                href="/Michael-Afolayan-Resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+            >
+                <button className="resume-button">View Resume</button>
+            </a>
+          </div>
         </div>
 
         <div className="hero-image-container">
