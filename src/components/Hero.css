@@ -49,6 +49,12 @@
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero button:hover {
+  background: white;
+  transform: translateY(-3px);
 }
 
 .hero-image-container {
