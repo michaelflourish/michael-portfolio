@@ -18,7 +18,9 @@ function Hero() {
             technologies.
           </p>
 
-          <button>View My Projects</button>
+          <a href="#projects">
+            <button>View My Projects</button>
+        </a>
         </div>
 
         <div className="hero-image-container">
